@@ -59,8 +59,8 @@ with st.container():
 
     st.header("Summary")
     st.write(
-        "Cloud enthusiast with a strong foundation in AWS and Azure cloud services and IaC tools like Terraform and Ansible. "
-        "Eager to leverage these skills to design, build, and maintain scalable, secure, and cost-efficient cloud infrastructure."
+        "Cloud and data enthusiast with a strong foundation in AWS and Azure cloud services, Infrastructure as Code (IaC) tools like Terraform and Ansible, and programming languages including Python, SQL, and R. 
+        Passionate about leveraging cloud computing, data analysis, and visualization to build scalable, secure infrastructure and drive data-driven decision-making."
     )
 
     st.header("Skills")
