@@ -84,7 +84,7 @@ with st.container():
 
     st.header("Project Experience")
 
-     st.subheader("Predictive Analysis of Student Dropouts (Sep 2024 - Dec 2024)")
+    st.subheader("Predictive Analysis of Student Dropouts (Sep 2024 - Dec 2024)")
     st.write("- Built a machine learning model to predict student dropouts in Canadian institutions using supervised learning algorithms such as Linear Regression, KNN, and Decision Trees.")
     st.write("- Integrated and prepared datasets from sources like Kaggle and Statistics Canada to analyze key dropout factors.")
     st.write("- Visualized insights using Power BI to identify at-risk students and support data-driven interventions.")
