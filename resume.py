@@ -84,6 +84,12 @@ with st.container():
 
     st.header("Project Experience")
 
+     st.subheader("Predictive Analysis of Student Dropouts (Sep 2024 - Dec 2024)")
+    st.write("- Built a machine learning model to predict student dropouts in Canadian institutions using supervised learning algorithms such as Linear Regression, KNN, and Decision Trees.")
+    st.write("- Integrated and prepared datasets from sources like Kaggle and Statistics Canada to analyze key dropout factors.")
+    st.write("- Visualized insights using Power BI to identify at-risk students and support data-driven interventions.")
+    st.write("- Delivered actionable recommendations for resource allocation and retention strategies to educational authorities.")
+
     st.subheader("Wayfinders (Dec 2023 - April 2024)")
     st.write("- Deployed Single Sign-On (SSO) across the company using KeyCloak, streamlining authentication processes and improving security.")
     st.write("- Managed user provisioning and access controls for the Wayfinders group, ensuring seamless integration with existing IT infrastructure.")
@@ -101,8 +107,3 @@ with st.container():
     st.write("- Designed and implemented a responsive frontend using HTML, CSS, Bootstrap, and JavaScript for enhanced user experience.")
     st.write("- Optimized the MySQL database schema to ensure efficient data handling, reducing query time by 30%.")
 
-    st.subheader("Predictive Analysis of Student Dropouts (Sep 2023 - Dec 2023)")
-    st.write("- Built a machine learning model to predict student dropouts in Canadian institutions using supervised learning algorithms such as Linear Regression, KNN, and Decision Trees.")
-    st.write("- Integrated and prepared datasets from sources like Kaggle and Statistics Canada to analyze key dropout factors.")
-    st.write("- Visualized insights using Power BI to identify at-risk students and support data-driven interventions.")
-    st.write("- Delivered actionable recommendations for resource allocation and retention strategies to educational authorities.")
