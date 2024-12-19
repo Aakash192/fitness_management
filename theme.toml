@@ -1,0 +1,12 @@
+[theme]
+primaryColor="#007bff" # Blue
+backgroundColor="#f0f0f0" # Light Gray
+secondaryBackgroundColor="#e0e0e0" # Lighter Gray
+textColor="#222"
+font="sans-serif"
+
+[sidebar]
+backgroundColor="#f5f5f5" # Slightly darker gray
+
+[markdown]
+bodyFontFamily="sans-serif"
