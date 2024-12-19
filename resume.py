@@ -7,8 +7,9 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# Add custom CSSA
-st.markdown("""
+# Add custom CSS
+st.markdown(
+    """
     <style>
         body {
             font-family: sans-serif;
@@ -19,7 +20,7 @@ st.markdown("""
             max-width: 850px;
             margin: 30px auto;
             padding: 30px;
-            background-color: #fff; /* White background */
+            background-color: #fff;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
@@ -47,7 +48,9 @@ st.markdown("""
             margin-bottom: 5px;
         }
     </style>
-""", unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True,
+)
 
 # Resume Content
 with st.container():
@@ -58,11 +61,12 @@ with st.container():
     )
 
     st.header("Summary")
-st.write(
-    """Cloud and data enthusiast with a strong foundation in AWS and Azure cloud services, Infrastructure as Code (IaC) tools like Terraform and Ansible, and programming languages including Python, SQL, and R.
+    st.write(
+        """Cloud and data enthusiast with a strong foundation in AWS and Azure cloud services, Infrastructure as Code (IaC) tools like Terraform and Ansible, and programming languages including Python, SQL, and R.
 
 Passionate about leveraging cloud computing, data analysis, and visualization to build scalable, secure infrastructure and drive data-driven decision-making."""
-)
+    )
+
     st.header("Skills")
     st.write("- **Cloud Platforms:** Azure, AWS")
     st.write("- **IaC:** Terraform, Ansible")
@@ -106,4 +110,3 @@ Passionate about leveraging cloud computing, data analysis, and visualization to
     st.write("- Built the backend using Python and Django with robust RESTful APIs for seamless integration.")
     st.write("- Designed and implemented a responsive frontend using HTML, CSS, Bootstrap, and JavaScript for enhanced user experience.")
     st.write("- Optimized the MySQL database schema to ensure efficient data handling, reducing query time by 30%.")
-
