@@ -7,7 +7,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-# Add custom CSS
+# Add custom CSSA
 st.markdown("""
     <style>
         body {
@@ -59,9 +59,8 @@ with st.container():
 
     st.header("Summary")
     st.write(
-        "Cloud and data enthusiast with a strong foundation in AWS and Azure cloud services, Infrastructure as Code (IaC) tools like Terraform and Ansible, and programming languages including Python, SQL, and R. 
-        Passionate about leveraging cloud computing, data analysis, and visualization to build scalable, secure infrastructure and drive data-driven decision-making."
-    )
+    "Cloud and data enthusiast with a strong foundation in AWS and Azure cloud services, Infrastructure as Code (IaC) tools like Terraform and Ansible, and programming languages including Python, SQL, and R. Passionate about leveraging cloud computing, data analysis, and visualization to build scalable, secure infrastructure and drive data-driven decision-making."
+)
 
     st.header("Skills")
     st.write("- **Cloud Platforms:** Azure, AWS")
